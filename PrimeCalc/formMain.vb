@@ -91,10 +91,14 @@
     End Sub
 
     Private Sub btnCopy_Click(sender As Object, e As EventArgs) Handles btnCopy.Click
-        Clipboard.SetText(outputResult.SelectedText)
+        If Not outputResult.SelectedText = "" Then
+            Clipboard.SetText(outputResult.SelectedText)
+        End If
     End Sub
 
     Private Sub btnCopyAll_Click(sender As Object, e As EventArgs) Handles btnCopyAll.Click
-        Clipboard.SetText(outputResult.Text)
+        If Not outputResult.Text = "" Then
+            Clipboard.SetText(outputResult.Text)
+        End If
     End Sub
 End Class
