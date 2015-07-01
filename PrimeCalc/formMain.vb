@@ -6,6 +6,7 @@
         inputSpec.Text = "1"    'default value of specific mode
         inputStart.Text = "1"   'default start value (range mode)
         inputEnd.Text = "100"   'default end value (range mode)
+        outputStatus.Text = "Press Calculate"
     End Sub
 
     Private Sub radioSpec_CheckedChanged(sender As Object, e As EventArgs) Handles radioSpec.CheckedChanged
@@ -15,7 +16,6 @@
         inputEnd.Enabled = False
         inputSpec.Focus()
         varMode = 1     'specific mode is varMode 1
-        outputStatus.Text = "Press Calculate"
     End Sub
 
     Private Sub radioRange_CheckedChanged(sender As Object, e As EventArgs) Handles radioRange.CheckedChanged
@@ -61,7 +61,7 @@
         End Select
     End Sub
 
-    'PRIME NUMBER CALCULATOR ENGINE
+    'PRIME NUMBER CALCULATOR
     'num = input number (int)
     'cnt = counter (when num is prime number, cnt is 2) (int)
     'div = "Show divisor" checkbox (bool)
