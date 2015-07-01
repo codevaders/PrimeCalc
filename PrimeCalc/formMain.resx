@@ -117,11 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;labelEnd.Name" xml:space="preserve">
+    <value>labelEnd</value>
+  </data>
+  <data name="&gt;&gt;labelEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelEnd.Parent" xml:space="preserve">
+    <value>groupRange</value>
+  </data>
+  <data name="&gt;&gt;labelEnd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelStart.Name" xml:space="preserve">
+    <value>labelStart</value>
+  </data>
+  <data name="&gt;&gt;labelStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStart.Parent" xml:space="preserve">
+    <value>groupRange</value>
+  </data>
+  <data name="&gt;&gt;labelStart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;inputEnd.Name" xml:space="preserve">
+    <value>inputEnd</value>
+  </data>
+  <data name="&gt;&gt;inputEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputEnd.Parent" xml:space="preserve">
+    <value>groupRange</value>
+  </data>
+  <data name="&gt;&gt;inputEnd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;inputStart.Name" xml:space="preserve">
+    <value>inputStart</value>
+  </data>
+  <data name="&gt;&gt;inputStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputStart.Parent" xml:space="preserve">
+    <value>groupRange</value>
+  </data>
+  <data name="&gt;&gt;inputStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 149</value>
+  </data>
+  <data name="groupRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 82</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupRange.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupRange.Name" xml:space="preserve">
+    <value>groupRange</value>
+  </data>
+  <data name="&gt;&gt;groupRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupRange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupRange.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="labelEnd.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelEnd.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 48</value>
   </data>
@@ -215,27 +284,6 @@
   <data name="&gt;&gt;inputStart.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="groupRange.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 149</value>
-  </data>
-  <data name="groupRange.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 82</value>
-  </data>
-  <data name="groupRange.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupRange.Name" xml:space="preserve">
-    <value>groupRange</value>
-  </data>
-  <data name="&gt;&gt;groupRange.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupRange.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupRange.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="btnRun.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 262</value>
   </data>
@@ -308,6 +356,63 @@
   </data>
   <data name="&gt;&gt;outputResult.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelSpec.Name" xml:space="preserve">
+    <value>labelSpec</value>
+  </data>
+  <data name="&gt;&gt;labelSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpec.Parent" xml:space="preserve">
+    <value>groupSpec</value>
+  </data>
+  <data name="&gt;&gt;labelSpec.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkDivisor.Name" xml:space="preserve">
+    <value>chkDivisor</value>
+  </data>
+  <data name="&gt;&gt;chkDivisor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDivisor.Parent" xml:space="preserve">
+    <value>groupSpec</value>
+  </data>
+  <data name="&gt;&gt;chkDivisor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;inputSpec.Name" xml:space="preserve">
+    <value>inputSpec</value>
+  </data>
+  <data name="&gt;&gt;inputSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputSpec.Parent" xml:space="preserve">
+    <value>groupSpec</value>
+  </data>
+  <data name="&gt;&gt;inputSpec.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupSpec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 36</value>
+  </data>
+  <data name="groupSpec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 69</value>
+  </data>
+  <data name="groupSpec.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupSpec.Name" xml:space="preserve">
+    <value>groupSpec</value>
+  </data>
+  <data name="&gt;&gt;groupSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSpec.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupSpec.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="labelSpec.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -383,27 +488,6 @@
   </data>
   <data name="&gt;&gt;inputSpec.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="groupSpec.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 36</value>
-  </data>
-  <data name="groupSpec.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 69</value>
-  </data>
-  <data name="groupSpec.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupSpec.Name" xml:space="preserve">
-    <value>groupSpec</value>
-  </data>
-  <data name="&gt;&gt;groupSpec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupSpec.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupSpec.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="btnCopy.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 579</value>
@@ -550,7 +634,7 @@
     <value>Prime Number Calculator</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>mainForm</value>
+    <value>formMain</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

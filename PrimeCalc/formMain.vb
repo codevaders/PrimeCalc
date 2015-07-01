@@ -6,25 +6,25 @@
         inputSpec.Text = "1"    'default value of specific mode
         inputStart.Text = "1"   'default start value (range mode)
         inputEnd.Text = "100"   'default end value (range mode)
-        outputStatus.Text = "Press Calculate"
     End Sub
 
     Private Sub radioSpec_CheckedChanged(sender As Object, e As EventArgs) Handles radioSpec.CheckedChanged
-        inputSpec.Enabled = True
-        chkDivisor.Enabled = True
-        inputStart.Enabled = False
-        inputEnd.Enabled = False
-        inputSpec.Focus()
-        varMode = 1     'specific mode is varMode 1
-    End Sub
-
-    Private Sub radioRange_CheckedChanged(sender As Object, e As EventArgs) Handles radioRange.CheckedChanged
-        inputSpec.Enabled = False
-        chkDivisor.Enabled = False
-        inputStart.Enabled = True
-        inputEnd.Enabled = True
-        inputStart.Focus()
-        varMode = 2     'range mode is varMode 2
+        If radioSpec.Checked = True Then
+            inputSpec.Enabled = True
+            chkDivisor.Enabled = True
+            inputStart.Enabled = False
+            inputEnd.Enabled = False
+            inputSpec.Focus()
+            varMode = 1     'specific mode is varMode 1
+        Else
+            inputSpec.Enabled = False
+            chkDivisor.Enabled = False
+            inputStart.Enabled = True
+            inputEnd.Enabled = True
+            inputStart.Focus()
+            varMode = 2     'range mode is varMode 2
+        End If
+        outputStatus.Text = "Press Calculate"
     End Sub
 
     Private Sub btnRun_Click(sender As Object, e As EventArgs) Handles btnRun.Click
